@@ -1,4 +1,14 @@
+import ComponentBanner from "./Component/ComponentBanner";
+import ComponentHeader from "./Component/ComponentHeader";
+import ComponentInformation from "./Component/ComponentInformation";
+
 function HomePage (){
-    return(<> đây là home page</>);
+    return(
+    <div id="main">
+        <ComponentHeader/>
+        <ComponentBanner/>
+        <ComponentInformation/>
+    </div>
+);
 }
 export default HomePage;
