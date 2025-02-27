@@ -1,0 +1,26 @@
+.content-section {
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.content-section > h2{
+    text-align: center;
+    font-size: 50px;
+}
+.section-sub-heading {
+    text-align: center;
+    font-size: 17px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.5;
+}
+.about-text {
+    margin-top: 25px;
+    font-size: 30px;
+    text-align: justify;
+    line-height: 1.4;
+}
