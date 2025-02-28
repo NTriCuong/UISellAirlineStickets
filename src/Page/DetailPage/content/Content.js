@@ -1,8 +1,7 @@
 import React from "react";
-import "../content/Content.css";
-import iconFlight from "../../image/iconFlight.png";
-import '../../App.css'
-
+import "../../../Style/DetailStyle/Content.css";
+import iconFlight from "../../../image/iconFlight.png";
+import '../../../App.css'
 
 function Content() {
   return (
