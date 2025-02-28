@@ -1,0 +1,150 @@
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+  width: 1300px;
+  height: 783px;
+  border-radius: 15px;
+}
+
+.content-box > div {
+  text-align: center;
+  /* border: 1px solid #aaa; Thêm border để dễ nhìn */
+}
+
+.content-header{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  padding: 50px;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.custom-icon-flight{
+  width: 70px;
+  height: 55px;
+}
+
+.content-header .icon-plane{
+    padding-left: 10px;
+}
+
+.content-box > .content-info {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 100%;
+}
+
+.content-button {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-flight-start {
+  flex-basis: 15%;
+}
+
+.content-flight-end {
+  flex-basis: 30%;
+}
+
+.content-flight-start input {
+  width: 100%;
+  line-height: 21px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.content-flight-end input {
+  width: 186px;
+  line-height: 21px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+.content-flight-button input[type="submit"] {
+  height: 26px;
+  width: 120px;
+  border-radius: 5px;
+}
+
+.content-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-info-details {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  width: 90%;
+  height: 95%;
+  border-radius: 15px;
+}
+
+.content-info-details > .details-start {
+  display: flex;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #aaa;
+}
+
+.content-info-details > .details-end {
+  display: flex;
+  width: 50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  border: 0px solid #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  .content-header {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .custom-icon-flight {
+    width: 40px;
+    height: 30px;
+  }
+
+  .content-box {
+    width: 100%;
+    height: 450px;
+  }
+
+  .content-button {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .content-info-details {
+    flex-direction: row;
+    padding-left: 10px;
+    height: 100%;
+  }
+
+  .content-info-details > .details-start,
+  .content-info-details > .details-end {
+    width: 100%;
+    border: none;
+    padding: 5px 5px 0px;
+    text-align: center;
+    border: 0px solid #aaa;
+    border-right: 1px solid #aaa;
+  }
+}
