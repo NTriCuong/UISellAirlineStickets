@@ -38,7 +38,9 @@
 }
 
 .content-box > .content-info {
-  height: 630px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  height: 100%;
 }
 
 .content-button {
@@ -65,7 +67,7 @@
 }
 
 .content-flight-end input {
-  width: 60%;
+  width: 186px;
   line-height: 21px;
   box-sizing: border-box;
   padding: 0 10px;
@@ -107,4 +109,42 @@
   padding-top: 20px;
   padding-left: 20px;
   border: 0px solid #aaa;
+}
+
+@media screen and (max-width: 768px) {
+  .content-header {
+    font-size: 20px;
+    padding: 30px;
+  }
+
+  .custom-icon-flight {
+    width: 40px;
+    height: 30px;
+  }
+
+  .content-box {
+    width: 100%;
+    height: 450px;
+  }
+
+  .content-button {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .content-info-details {
+    flex-direction: row;
+    padding-left: 10px;
+    height: 100%;
+  }
+
+  .content-info-details > .details-start,
+  .content-info-details > .details-end {
+    width: 100%;
+    border: none;
+    padding: 5px 5px 0px;
+    text-align: center;
+    border: 0px solid #aaa;
+    border-right: 1px solid #aaa;
+  }
 }
